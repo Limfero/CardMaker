@@ -1,0 +1,105 @@
+@import "./vatiables";
+
+.toolbar {
+  height: $toolbar-heigth;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  z-index: 999;
+
+  &__btn {
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .cursor{
+    background: url('../assets/image/cursor.png') no-repeat center center;
+  }
+
+  .rect {
+    background: url('../assets/image/rect.png') no-repeat center center;
+  }
+
+  .circle {
+    background: url('../assets/image/circle.png') no-repeat center center;
+  }
+
+  .img {
+    background: url('../assets/image/image.png') no-repeat center center;
+    opacity: 0;
+    margin-left: -25px;
+  }
+
+  .image {
+    background: url('../assets/image/image.png') no-repeat center center;
+  }
+
+  .text {
+    background: url('../assets/image/text.png') no-repeat center center;
+  }
+
+  .undo {
+    margin-left: auto;
+    background: url('../assets/image/undo.png') no-repeat center center;
+  }
+
+  .redo {
+    background: url('../assets/image/redo.png') no-repeat center center;
+  }
+
+  .save {
+    background: url('../assets/image/save.png') no-repeat center center;
+    margin-right: 10px;
+  }
+}
+
+.templates{
+
+  &__template {
+    height: 200px;
+    width: 320px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .temp1{
+    background: url('../assets/image/template1.jpg') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .temp2{
+    background: url('../assets/image/template2.jpg') no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .temp3{
+    background: url('../assets/image/template3.png') no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .temp4{
+    background: url('../assets/image/template4.jpg') no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+
+
+.setting-bar{
+  height: $toolbar-heigth;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  top:$toolbar-heigth
+}

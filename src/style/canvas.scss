@@ -1,0 +1,14 @@
+@import "./vatiables";
+
+.canvas{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas{
+  margin-top: $toolbar-heigth;
+  border:  1px solid black;
+  background-color: white;
+}
